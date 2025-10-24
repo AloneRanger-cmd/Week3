@@ -1,0 +1,76 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0%;
+}
+header {
+   padding-left : 2rem;
+   padding-right : 2rem;
+   padding-top : 1rem;
+   padding-bottom : 1rem;
+   background-color: #0D0A0B;
+   color: white;
+}
+div.personal{
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+nav {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-decoration: none;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #D36582;
+    }
+    li {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+}
+main {
+    width: 60vw;
+    padding : 2rem;
+    margin: none;
+}
+footer {
+    text-align: center;
+    background-color: #454955;
+    color: white;
+    padding: 1rem;
+    a {
+        color: white;
+    }
+}
+div.personalPicture{
+    img {
+        width: 12rem;
+        height: auto;
+        border: #0D0A0B 2px solid;
+    }
+}
+div.gclink{
+    img {
+        width: 14rem;
+        height: auto;
+    }
+}
+div.foodRecipe{
+    li::marker{
+        font-weight: bold;
+    }
+}
+div.foodRecipe{
+    img{
+        width: 20rem;
+        height: auto;
+        border: #0D0A0B 2px solid;
+        float: right;
+    }
+}
